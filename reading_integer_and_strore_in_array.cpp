@@ -21,11 +21,4 @@ int main()
 
         infile.close();
     }
-    
-
-
-
-
-
-
 }
