@@ -1,3 +1,4 @@
 Hello world!
 read full file content
 all the lines
+close the file at last
