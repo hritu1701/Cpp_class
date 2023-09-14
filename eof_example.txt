@@ -1,0 +1,3 @@
+Hello world!
+read full file content
+all the lines

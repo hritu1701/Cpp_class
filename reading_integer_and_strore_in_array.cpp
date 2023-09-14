@@ -8,7 +8,7 @@ int main()
     int arr[10];
 
     ifstream infile;
-    infile.open("D:\\Rough\\exp420.txt"); //Read the file
+    infile.open("D:\\Cpp_class\\exp420.txt"); //Read the file
 
     for(int i=0;i<10;i++)
     {
