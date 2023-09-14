@@ -14,7 +14,7 @@ int main()
     string name;
     int roll;
     float marks;
-
+ 
     cout << "Enter your name: ";
     cin >> name;
 
