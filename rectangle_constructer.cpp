@@ -26,5 +26,5 @@ int main()
     {
         r[i].display();
     }
-    
+    return 0;
 }
