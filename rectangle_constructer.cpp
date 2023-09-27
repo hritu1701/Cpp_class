@@ -13,13 +13,18 @@ class Rectangle
         cout<<"Enter width: "<<endl;
         cin>>width;
     }
-    long area()
-    {
-        return length*width;
-    }
+   void display()
+   {
+    cout<<"Length: "<<length<<endl;
+    cout<<"Width: "<<width<<endl;
+   }
 };
 int main()
 {
-    Rectangle r1;
-    cout<<"The area is: "<<r1.area();
+    Rectangle r[10];
+    for(int i=0;i<10;i++)
+    {
+        r[i].display();
+    }
+    
 }
