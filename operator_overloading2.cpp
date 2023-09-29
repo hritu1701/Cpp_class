@@ -23,11 +23,21 @@ class complex_number
         return temp;
 
     }
-    void display()
-    {
-        cout<<"Complex number is "<<a<<"+i"<<b<<endl;
-    }
+friend void operator<< (ostream&,complex_number&);
+
 };
+
+void operator<< (ostream &cout,complex_number &z)
+{
+    if(z.b>0)
+    {
+    cout<<z.a<<"+i"<<z.b<<endl;
+    }
+    else
+    cout<<z.a<<"-i"<<z.b<<endl;
+
+}
+
 int main()
 {
     complex_number x,y;
@@ -35,5 +45,5 @@ int main()
     y.input();
 
     complex_number z = x+y;
-    z.display();
+    cout<<z;
 }
