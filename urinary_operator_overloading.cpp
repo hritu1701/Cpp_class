@@ -34,7 +34,9 @@ int main()
 {
     A a1;
     a1.display();
-
+    
+    ++a1;
+    ++a1;
     ++a1;
     a1.display();
 }
