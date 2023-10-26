@@ -19,6 +19,7 @@ class Circle : public Shape
 
     Circle()
     {
+        cout<<"Enter the radius: "<<endl;
         cin>>radius;
     }
     
@@ -29,11 +30,13 @@ class Circle : public Shape
 
     void calculateArea()
     {
-        cout<<(3.14*radius*radius);
+        cout<<"Area is: "<<(3.14*radius*radius);
     }
 }; 
 
 int main()
 {
-    Shape s1;
+    Circle c1;
+    c1.create();
+    c1.calculateArea();
 }
