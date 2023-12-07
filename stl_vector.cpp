@@ -4,19 +4,20 @@ using namespace std;
 
 int main()
 {
-    vector<int > v;
-    v.emplace_back(5);
-    v.pop_back();
+    vector<int>v;
 
     cout<<"Enter elements: ";
-
-    for(int i=0; i<10;i++)
+    for(int i=0; i<v.size();i++)
     {
-        v.emplace_back(i);
+        cin>>v[i];
     }
+    cout<<endl;
 
-    for(auto i:a)
+cout<<"The elements are: ";
+for(auto it:v)      
     {
-        cout<<
+        cout<<it<<" ";
     }
+    cout<<endl;
+return 0;
 }
